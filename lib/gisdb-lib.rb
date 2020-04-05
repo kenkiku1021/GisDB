@@ -5,9 +5,9 @@ require "pg"
 
 module GisDBLib
   SRID = 6668
-  TARGETS = ["jp_admin_area"]
+  TARGETS = ["jp_admin_areas"]
   COLUMNS_TABLE = {
-    "jp_admin_area" => [
+    "jp_admin_areas" => [
       ["N03_001", "pref"],
       ["N03_002", "sub_pref"],
       ["N03_003", "major_city"],
@@ -16,7 +16,7 @@ module GisDBLib
     ],
   }
   CODEPAGE = {
-    "jp_admin_area" => "cp932",
+    "jp_admin_areas" => "cp932",
   }
   
   class Config

@@ -5,7 +5,7 @@ def usage
   STDERR.print <<EOS
 Usage:
 #{$0} target src_file
-  target: jp_admin_area
+  target: jp_admin_areas
   src_file: src file (shape file)
 EOS
 end

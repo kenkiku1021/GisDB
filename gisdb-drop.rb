@@ -5,7 +5,7 @@ def usage
   STDERR.print <<EOS
 Usage:
 #{$0} target
-  target: jp_admin_area
+  target: jp_admin_areas
 EOS
 end
 
