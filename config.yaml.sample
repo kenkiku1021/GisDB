@@ -1,0 +1,7 @@
+postgis:
+  host: localhost
+  port: 5432
+  db: gisdb
+  user: gisdb
+  password: gisdb
+  
